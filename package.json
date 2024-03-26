@@ -1,0 +1,23 @@
+{
+  "name": "EventGenius",
+  "version": "1.0.0",
+  "description": "An event organization and management Discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeWerner/DiscordBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JakeWerner/DiscordBot/issues"
+  },
+  "homepage": "https://github.com/JakeWerner/DiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
