@@ -1,3 +1,4 @@
+require('dotenv').config();
 const {Client, GatewayIntentBits} = require('discord.js');
 const fs = require('fs');
 const client = new Client({
@@ -8,7 +9,11 @@ const client = new Client({
         GatewayIntentBits.MessageContent,
     ],
 });
-client.login('MTIyMjI3ODkwNjc5OTg1MzY2MA.Gl2my6.3kX18p3A9gdkuHY9UkiY0ZF3uLWEroSesrCDhQ');
+client.on('ready', (c) => {
+    console.log(`${c.user.tag} is online.`)
+})
+//Login to Discord using a TOKEN variable stored in .env
+client.login(process.env.TOKEN);
 const prefix = '!';
 
 // Load data from events JSON file
@@ -141,4 +146,3 @@ client.on('message', message => {
 });
 
 //Debug message
-console.log('Code ran successfully');
