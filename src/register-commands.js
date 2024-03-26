@@ -4,7 +4,7 @@ const {REST, Routes} = require('discord.js');
 const commands = [ 
     {
         name: 'schedule',
-        description: 'Initializes scheduling'
+        description: 'Initializes scheduling',
     },
 ];
 
