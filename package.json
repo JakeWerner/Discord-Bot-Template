@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JakeWerner/DiscordBot.git"
+    "url": "git+https://github.com/JakeWerner/EventGenius.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JakeWerner/DiscordBot/issues"
+    "url": "https://github.com/JakeWerner/EventGenius/issues"
   },
-  "homepage": "https://github.com/JakeWerner/DiscordBot#readme",
+  "homepage": "https://github.com/JakeWerner/EventGenius#readme",
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
