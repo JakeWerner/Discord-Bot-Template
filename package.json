@@ -1,5 +1,5 @@
 {
-  "name": "EventGenius",
+  "name": "Discord-Bot-Template",
   "version": "1.0.0",
   "description": "An event organization and management Discord bot",
   "main": "src/index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JakeWerner/EventGenius.git"
+    "url": "git+https://github.com/JakeWerner/Discord-Bot-Template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JakeWerner/EventGenius/issues"
+    "url": "https://github.com/JakeWerner/Discord-Bot-Template/issues"
   },
-  "homepage": "https://github.com/JakeWerner/EventGenius#readme",
+  "homepage": "https://github.com/JakeWerner/Discord-Bot-Template#readme",
   "dependencies": {
     "discord.js": "^14.14.1",
     "dotenv": "^16.4.5"
